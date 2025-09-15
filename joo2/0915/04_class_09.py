@@ -45,6 +45,10 @@ class GBVGame:
         result = self.determine_winner()
         print(f"결과: {result}")
 
-
-GBVGame().play()
+while True:
+    GBVGame().play()
+    again = input("다시 하시겠습니까? (y/n): ").strip().lower()
+    if again != 'y':
+        print("게임을 종료합니다.")
+        break
 

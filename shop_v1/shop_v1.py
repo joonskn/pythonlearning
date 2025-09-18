@@ -2,7 +2,7 @@
 # pip install dotenv  env 쓸수 있는 라이브러리
 import pymysql
 from dotenv import load_dotenv   #env 로드
-import os  #os 해야 환경변수를 세팅해주는거
+import os 
 
 # .env 로드
 load_dotenv()

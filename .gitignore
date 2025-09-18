@@ -1,0 +1,8 @@
+# 가상환경
+.vscode
+# 환경변수 필수
+.env
+#파이썬
+*.sqplite3
+*.db
+*.__pycache__
